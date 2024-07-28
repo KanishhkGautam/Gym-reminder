@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net" modified="2024-07-19T21:12:01.944Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="CWMpWFrpQDVjWsoof7zp" version="24.6.4" type="google">
+  <diagram name="Page-1" id="xrlCGy74AQ0H8zYcshL4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-1" value="Show time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-2" value="Is button pressed" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-4" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="308" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-6" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="590" as="targetPoint" />
+            <mxPoint x="405" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-9" value="Get the users&#39; resting heart rate, then indicate when to start their sets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-28" value="&amp;nbsp;Indicate that they need to start their new set." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-32" value="Is button still true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-34" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1008" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-36" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1010" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-37" value="In rep Heart rate should be less then max&amp;nbsp;&lt;div&gt;(220-age)=max&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-38" value="When heart rate drops by 20 BPM, then start 30 s timer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-41" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="790" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-39" value="Is heart rate below 90" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-42" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="790" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-44" value="Indricate that they need to rest" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-51" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="568" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-37" target="a-PPo04rvA7sPnl3hrzI-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-53" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="678" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-54" value="Indicate that they need to rest" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="598" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-57" value="Enter user&#39;s age" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-PPo04rvA7sPnl3hrzI-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a-PPo04rvA7sPnl3hrzI-57" target="a-PPo04rvA7sPnl3hrzI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
