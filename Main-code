@@ -1,0 +1,19 @@
+import time
+from heart_rate_readings import HeartRateSensor
+
+def main():
+    # Initialize the heart rate sensor on a specific pin (e.g., GPIO pin 26)
+    heart_rate_sensor = HeartRateSensor(pin=26)
+    
+    while True:
+        # Fetch the current heart rate
+        bpm = heart_rate_sensor.read_heart_rate()
+        
+        # Print the heart rate (BPM)
+        print(f"Current Heart Rate: {bpm} BPM")
+        
+        # Wait for 10 seconds before reading again
+        time.sleep(10)
+
+if __name__ == "__main__":
+    main()
