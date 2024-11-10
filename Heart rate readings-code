@@ -1,0 +1,48 @@
+
+import time
+import machine
+
+class HeartRateSensor:
+    def __init__(self, pin):
+        self.sensor_pin = machine.Pin(pin, machine.Pin.IN)
+        self.adc = machine.ADC(self.sensor_pin)
+
+    def _calculate_bpm(self, raw_value):
+        # Convert raw_value to heart rate (BPM). This is highly dependent on the sensor.
+        # This is a placeholder conversion, and you'd adjust this based on your sensor's specifics.
+        # You might need to calibrate this based on the sensor's documentation.
+        return raw_value / 100  # Simplified conversion for illustration
+    
+    
+    def read_heart_rate(self):
+        # Placeholder for actual sensor reading logic
+        # Typically, you'd read from the ADC pin and convert that to BPM
+        raw_value = self.adc.read_u16()  # Read the raw ADC value (0-65535)
+        bpm = self._calculate_bpm(raw_value)
+        return raw_value
+    
+        # 0-65535
+        # 0-5 V
+        # 0->0
+        # 5->65535
+        
+
+
+        # 65535- > 5
+        # 50,000 -> ?
+        # 50000 * 5 / 65535 == 4.1 V
+        # 0 - 200 bpm
+        # 0- 5 
+
+         4.1 * 200 / 5 =  164 bpm
+    
+   
+def main():
+    print("Hello! I am here! \n")
+
+
+if __name__ == "__main__":
+    main()
+    
+
+
